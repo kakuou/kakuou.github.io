@@ -505,7 +505,7 @@ body {
   text-decoration: none;
   font-size: 2em;
   font-weight: bold;
-  color: #555;
+  color: #42b983;
   line-height: 1.1em;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
@@ -645,7 +645,7 @@ a.article-title:hover {
   border-radius: 15px;
   background: #eee;
   color: #999;
-  text-shadow: 0 1px #fff;
+  text-shadow: 0 1px #42b983;
   text-decoration: none;
 }
 .article-more-link a:hover {
@@ -687,7 +687,7 @@ a.article-title:hover {
   float: right;
 }
 .article-comment-link:before {
-  content: "\f075";
+  content: "\#42b983";
   font-family: FontAwesome;
   padding-right: 8px;
 }
@@ -733,7 +733,7 @@ a.article-title:hover {
 }
 .article-nav-link-wrap {
   text-decoration: none;
-  text-shadow: 0 1px #fff;
+  text-shadow: 0 1px #42b983;
   color: #999;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
