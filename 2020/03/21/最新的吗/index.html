@@ -181,28 +181,47 @@
         <div class="buttons is-centered">
             
                 
-<div class="notification is-danger">
-    You forgot to set the <code>qrcode</code> for Alipay. Please set it in <code>_config.yml</code>.
-</div>
+<a class="button is-info donate">
+    <span class="icon is-small">
+        <i class="fab fa-alipay"></i>
+    </span>
+    <span>支付宝</span>
+    <div class="qrcode"><img src="https://cdn3.struffelproductions.com/file/CC0-Textures/media/sphere/512-JPG/PavingStones036_PREVIEW.jpg" alt="支付宝"></div>
+</a>
 
                 
                 
-<div class="notification is-danger">
-    You forgot to set the <code>qrcode</code> for Wechat. Please set it in <code>_config.yml</code>.
-</div>
+<a class="button is-success donate">
+    <span class="icon is-small">
+        <i class="fab fa-weixin"></i>
+    </span>
+    <span>微信</span>
+    <div class="qrcode"><img src="https://cdn3.struffelproductions.com/file/CC0-Textures/media/sphere/512-JPG/PavingStones060_PREVIEW.jpg" alt="微信"></div>
+</a>
 
                 
                 <!-- Visit https://www.paypal.com/donate/buttons/ to get your donate button -->
 
-<div class="notification is-danger">
-    You forgot to set the <code>business</code> and <code>currency_code</code> for Paypal. Please set it in <code>_config.yml</code>.
-</div>
+<a class="button is-warning donate" onclick="document.getElementById(&#39;paypal-donate-form&#39;).submit()">
+    <span class="icon is-small">
+        <i class="fab fa-paypal"></i>
+    </span>
+    <span>Paypal</span>
+</a>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" rel="noopener" id="paypal-donate-form">
+    <input type="hidden" name="cmd" value="_donations" />
+    <input type="hidden" name="business" value="https://cdn3.struffelproductions.com/file/CC0-Textures/media/sphere/512-JPG/PavingStones044_PREVIEW.jpg" />
+    <input type="hidden" name="currency_code" value="USD" />
+</form>
 
                 
                 
-<div class="notification is-danger">
-    You forgot to set the <code>url</code> Patreon. Please set it in <code>_config.yml</code>.
-</div>
+<a class="button is-danger donate" href="https://cdn3.struffelproductions.com/file/CC0-Textures/media/sphere/512-JPG/PavingStones026_PREVIEW.jpg" target="_blank" rel="noopener">
+    <span class="icon is-small">
+        <i class="fab fa-patreon"></i>
+    </span>
+    <span>Patreon</span>
+</a>
 
                 
         </div>
@@ -216,7 +235,7 @@
         
         
         <div class="level-end">
-            <a class="level level-item has-link-grey  article-nav-next" href="/2020/03/21/hello-world/">
+            <a class="level level-item has-link-grey  article-nav-next" href="/2015/12/03/hello-world/">
                 <span class="level-item">医综考试大纲</span>
                 <i class="level-item fas fa-chevron-right"></i>
             </a>
@@ -256,12 +275,12 @@
             </li>
         
             <li>
-                <a class="level is-mobile" href="https://github.com/ppoffice" target="_blank" rel="noopener">
+                <a class="level is-mobile" href="https://baidu.com" target="_blank" rel="noopener">
                     <span class="level-left">
-                        <span class="level-item">PPOffice</span>
+                        <span class="level-item">baidu</span>
                     </span>
                     <span class="level-right">
-                        <span class="level-item tag">github.com</span>
+                        <span class="level-item tag">baidu.com</span>
                     </span>
                 </a>
             </li>
@@ -315,7 +334,7 @@
         
         <article class="media">
             
-            <a href="/2020/03/21/hello-world/" class="media-left">
+            <a href="/2015/12/03/hello-world/" class="media-left">
                 <p class="image is-64x64">
                     <img class="thumbnail" src="/images/thumbnail.svg" alt="医综考试大纲">
                 </p>
@@ -323,8 +342,8 @@
             
             <div class="media-content">
                 <div class="content">
-                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-03-21T05:32:32.259Z">2020-03-21</time></div>
-                    <a href="/2020/03/21/hello-world/" class="title has-link-black-ter is-size-6 has-text-weight-normal">医综考试大纲</a>
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2015-12-02T16:00:00.000Z">2015-12-03</time></div>
+                    <a href="/2015/12/03/hello-world/" class="title has-link-black-ter is-size-6 has-text-weight-normal">医综考试大纲</a>
                     <p class="is-size-7 is-uppercase">
                         
                     </p>
@@ -349,7 +368,18 @@
                     <span class="level-item">三月 2020</span>
                 </span>
                 <span class="level-end">
-                    <span class="level-item tag">2</span>
+                    <span class="level-item tag">1</span>
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2015/12/">
+                <span class="level-start">
+                    <span class="level-item">十二月 2015</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">1</span>
                 </span>
             </a>
         </li>
